@@ -54,12 +54,12 @@ Ademas, tiene el papel de ser un **administrador de recursos** ya que es el enca
 * Traps: Una "trap" es tambien conocida como interrupción de software, esta es generada unicamente por este medio. Esta es sincrona. Estas pueden ser generadas por excepsiones como una division entre cero o errores al accesar memoria.
 Una trampa cambia el S.O. a el kernel mode, ya que esta es tratada con urgencia por medio del "trap handler" (que es una region del sistema operativo), la cual maneja la excepcion ya sea por medio de terminar el proceso a la fuerza, indicarle al usuario o una funcion de software predefinida. Para luego volver a cambiar al user mode.
 
-![](https://files.codingninjas.in/article_images/difference-between-trap-and-interrupt-in-operating-system-1-1691857647.webp) 
+![](https://www.baeldung.com/wp-content/uploads/sites/4/2021/07/Copy-of-gfdsgdg.png) 
 
 * Interruptions: una interrupcion es producida unicamente por una pieza de hardware, las interrupciones generalmente estan conectadas al PIN de interrupcion en el CPU y este a su vez utiliza un controlador de interrupciones para saber de que pieza de hardware proviene. 
 Este funciona cuando una pieza de hardware notifica al CPU que se realizo una interrupcion, este suspende el programa y entra en kernel mode. Una vez ya dentro el programa llama al controlador de interrupciones para saver de que dispositivo proviene y comop manejarlo. Cuando este ya fue manejado ingresa a modo usuario y reanuda la ejecucion del programa.
 
-![](https://files.codingninjas.in/article_images/difference-between-trap-and-interrupt-in-operating-system-2-1691857647.webp)
+![](https://www.baeldung.com/wp-content/uploads/sites/4/2021/07/gfdsgdg.png)
 
 Algunos aspectos que remarcar es que todas las traps son interrupciones pero no todas las interrupciones son traps.
 
