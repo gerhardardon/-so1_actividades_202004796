@@ -27,4 +27,5 @@ Para ejecutar cada 5 minutos el script llamado "script_github.sh" ubicado en el 
 ![](https://github.com/gerhardardon/-so1_actividades_202004796/blob/main/actividad2/images/Captura%20de%20pantalla%20de%202024-02-04%2022-23-54.png)
 
 La salida es la siguiente:
+
 ![](https://github.com/gerhardardon/-so1_actividades_202004796/blob/main/actividad2/images/Captura%20de%20pantalla%20de%202024-02-04%2022-23-19.png)
