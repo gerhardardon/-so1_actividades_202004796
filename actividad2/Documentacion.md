@@ -3,7 +3,8 @@
 La actividad #2 se basó en escribir un Script que consumiera el siguiente url _**https://api.github.com/users/**_ concatenando nuestro username el cual estaria guardado en una variable GITHUB_USER.
 
 Para la lectura del script se utilizó el comando jq para el manejo del jsno que retorna el url. (Puede ver los comentarios de script para una explicacion mas detallada)
-![](actividad2/images/Captura de pantalla de 2024-02-04 22-25-28.png)
+
+![](https://github.com/gerhardardon/-so1_actividades_202004796/blob/main/actividad2/images/Captura%20de%20pantalla%20de%202024-02-04%2022-23-54.png)
 
 Luego de crear el Script se debe configurar el crontab para la autoejecucion del script, e.sto se hace con el comando 
 
