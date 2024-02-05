@@ -4,7 +4,7 @@ La actividad #2 se basó en escribir un Script que consumiera el siguiente url _
 
 Para la lectura del script se utilizó el comando jq para el manejo del jsno que retorna el url. (Puede ver los comentarios de script para una explicacion mas detallada)
 
-![](https://github.com/gerhardardon/-so1_actividades_202004796/blob/main/actividad2/images/Captura%20de%20pantalla%20de%202024-02-04%2022-23-54.png)
+![](https://github.com/gerhardardon/-so1_actividades_202004796/blob/main/actividad2/images/Captura%20de%20pantalla%20de%202024-02-04%2022-25-28.png)
 
 Luego de crear el Script se debe configurar el crontab para la autoejecucion del script, e.sto se hace con el comando 
 
@@ -24,7 +24,7 @@ Para ejecutar cada 5 minutos el script llamado "script_github.sh" ubicado en el 
 
 `*/5 * * * * /home/gerhard/Escritorio/script_github.sh`
 (los * significan cualquier valor)
-![](actividad2/images/Captura de pantalla de 2024-02-04 22-23-54.png)
+![](https://github.com/gerhardardon/-so1_actividades_202004796/blob/main/actividad2/images/Captura%20de%20pantalla%20de%202024-02-04%2022-23-54.png)
 
 La salida es la siguiente:
-![](actividad2/images/Captura de pantalla de 2024-02-04 22-23-19.png)
+![](https://github.com/gerhardardon/-so1_actividades_202004796/blob/main/actividad2/images/Captura%20de%20pantalla%20de%202024-02-04%2022-23-19.png)
